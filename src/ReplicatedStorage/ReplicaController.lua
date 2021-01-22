@@ -162,7 +162,7 @@ do
 			return WaitForDescendant(game:GetService("ReplicatedStorage"), item_name, "module")
 		end,
 		GetModule = function(package_name, module_name)
-			return WaitForDescendant(game:GetService("ServerScriptService"), module_name, "module")
+			return WaitForDescendant(game:GetService("ServerStorage"), module_name, "module")
 		end,
 		SetupRemoteEvent = function(remote_name)
 			if RunService:IsServer() == true then

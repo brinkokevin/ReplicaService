@@ -37,7 +37,7 @@ local ReplicaServiceListeners = {
 
 ----- Loaded Modules -----
 
-local ReplicaService = require(game:GetService("ServerScriptService"):FindFirstChild("ReplicaService", true))
+local ReplicaService = require(game:GetService("ServerStorage"):FindFirstChild("ReplicaService", true))
 
 ----- Private functions -----
 
